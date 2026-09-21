@@ -63,3 +63,21 @@ Each screen also shows its own buttons along the bottom.
 ![Podcasts](screenshots/podcasts.png)
 ![Jellyfin](screenshots/jellyfin.png)
 ![Keyboard](screenshots/keyboard.png)
+
+## Credits and licences
+
+muSE Player is its own codebase, but it stands on other people's work:
+
+- **[Rockbox](https://www.rockbox.org/)** (GPLv2) — the player screen follows the
+  layout of its `cabbiev2` theme, measured and scaled to this panel. No Rockbox
+  code is used here.
+- **[Tiny Podcaster](https://github.com/lgnq/tiny-podcaster)** (GPLv3) — showed
+  that background playback on muOS wants a detached daemon with the app as a
+  client. The architecture is the debt; the implementation is not shared.
+- **[LÖVE](https://love2d.org/)** (zlib licence) — the runtime the app is
+  written against, bundled here.
+- **mpv** — does the actual playing, using the copy already on the device.
+- Station data from **[radio-browser.info](https://www.radio-browser.info/)**.
+
+The bundled font is NeverMind Compact. Everything else in `assets/` is drawn by
+the app itself.
