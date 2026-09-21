@@ -5,6 +5,12 @@ An audio player for the Anbernic RG35XX-H running muOS.
 Internet radio, podcasts, Jellyfin music and local files, with background
 playback and a now-playing pill on the muOS home screen.
 
+## Requires PortMaster
+
+Install **PortMaster** from muOS's Package Manager first. muSE uses its
+**gptokeyb** to turn the pad into keystrokes; muOS ships no equivalent, and
+without it the app refuses to launch rather than starting with no input.
+
 ## Install
 
 1. Copy `muSE Player.muxapp` to `/mnt/mmc/ARCHIVE/` on the device
