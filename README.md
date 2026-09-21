@@ -21,6 +21,39 @@ playback and a now-playing pill on the muOS home screen.
   focus it, then **A** play/pause, **X** open the player, **Y** quit. It can be
   turned off in Settings.
 
+## Controls
+
+**Anywhere**
+
+| Button | Does |
+|---|---|
+| D-pad | Move. From the rail, Right enters the list; B from the top of a list returns to it |
+| A | Open / confirm |
+| B | Back |
+| X | Now playing — jumps to the player from anywhere, and back out again |
+| Y | Save or unsave to **Saved** |
+| Start | The second action on a row, such as downloading a podcast episode |
+| Select | Close the app. Audio keeps playing |
+| L1 / R1 | Page up and down in long lists |
+
+**Player**
+
+| Button | Does |
+|---|---|
+| Left / Right | Choose a transport control |
+| A | Press it |
+| Up / Down | Volume |
+| L1 / R1 | Rewind and fast-forward. Not on live radio, which cannot seek |
+| B | Back |
+
+**On-screen keyboard** — A type, X delete, Y shift, B cancel.
+
+**Home screen pill** — Up focuses it, then A play/pause, X opens the player,
+Y quits muSE, B dismisses. It is optional: turn it off under
+**Settings → Home screen pill**.
+
+Each screen also shows its own buttons along the bottom.
+
 ## Screenshots
 
 ![Player](screenshots/player-radio.png)
